@@ -9,18 +9,126 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dashboardWithLogin.css">
+
 </head>
 
 <body>
 
     <div id="navbar">
-        <h2 class="navbaritem" id="personalBloggingAppHeading">Personal Blogging App</h2>
-        <a href="#" id="LogoutLink" class="navbaritem">Logout</a>
+        <div id="navbarcol1">
+            <h2 class="nav-items">Personal Blogging App</h2>
+        </div>
+        <div id="navbarcol2">
+            <p id="usernameDisplay" class="nav-items">Username</p>
+            <a href="#" id="logoutLink" class="nav-items">Logout</a>
+        </div>
+
     </div>
-    <div id="dashboardHeading">
+
+
+    <div id="dashboardHeadingDiv">
         <h1 id="dashboardHeading">Dashboard</h1>
 
     </div>
+
+    <div id="publishBlogDiv">
+        <input type="text" placeholder="Placeholder" class="inputField" required>
+        <textarea cols="50" rows="50" placeholder="What is in your mind" class="inputField" required></textarea>
+        <button id="publishBlogBtn">Publish blog</button>
+    </div>
+
+    <br />
+
+    <h1 id="myBlogsHeading">My Blogs</h1>
+
+    <div class="allBlogs">
+
+
+        <div id="blogOwnerInfo">
+            <div id="ppDiv"><img src="assests/my pic.jpg " alt="pp" class="pp" /></div>
+            <div id="blogTitleAndInfo">
+                <h2 id="blogTitle">JavaScript programming paradigm</h2>
+                <p id="blogOwnerNameAndDate">Hammad Ur Rehman - August 19th 2023</p>
+            </div>
+        </div>
+
+        <div id="blogContent">
+            <p>JavaScript is a versatile programming language that supports multiple programming paradigms. A
+                programming paradigm is a way of structuring and organizing code to solve problems. JavaScript supports
+                the following pt is a versatile programming language that supports multiple programming paradigms. A
+                programming paradigm is a way of structuring and organizingg pt is a versatile programming language that
+                supports multiple programming paradigms. A programming paradigm is a way of structuring and organizing
+                code to solve problems. JavaScript supports the following programming paradigms</p>
+        </div>
+
+        <div id="editAndDeleteBtnDiv">
+            <button id="deleteBtn" class="btns">Delete</button>
+            <button id="editBtn" class="btns">Edit</button>
+        </div>
+
+
+    </div>
+
+    <div class="allBlogs">
+
+
+        <div id="blogOwnerInfo">
+            <div id="ppDiv"><img src="assests/my pic.jpg " alt="pp" class="pp" /></div>
+            <div id="blogTitleAndInfo">
+                <h2 id="blogTitle">JavaScript programming paradigm</h2>
+                <p id="blogOwnerNameAndDate">Hammad Ur Rehman - August 19th 2023</p>
+            </div>
+        </div>
+
+        <div id="blogContent">
+            <p>JavaScript is a versatile programming language that supports multiple programming paradigms. A
+                programming paradigm is a way of structuring and organizing code to solve problems. JavaScript supports
+                the following pt is a versatile programming language that supports multiple programming paradigms. A
+                programming paradigm is a way of structuring and organizingg pt is a versatile programming language that
+                supports multiple programming paradigms. A programming paradigm is a way of structuring and organizing
+                code to solve problems. JavaScript supports the following programming paradigms</p>
+        </div>
+
+        <div id="editAndDeleteBtnDiv">
+            <button id="deleteBtn" class="btns">Delete</button>
+            <button id="editBtn" class="btns">Edit</button>
+        </div>
+
+
+    </div>
+
+
+    <div class="allBlogs">
+
+
+        <div id="blogOwnerInfo">
+            <div id="ppDiv"><img src="assests/my pic.jpg " alt="pp" class="pp" /></div>
+            <div id="blogTitleAndInfo">
+                <h2 id="blogTitle">JavaScript programming paradigm</h2>
+                <p id="blogOwnerNameAndDate">Hammad Ur Rehman - August 19th 2023</p>
+            </div>
+        </div>
+
+        <div id="blogContent">
+            <p>JavaScript is a versatile programming language that supports multiple programming paradigms. A
+                programming paradigm is a way of structuring and organizing code to solve problems. JavaScript supports
+                the following pt is a versatile programming language that supports multiple programming paradigms. A
+                programming paradigm is a way of structuring and organizingg pt is a versatile programming language that
+                supports multiple programming paradigms. A programming paradigm is a way of structuring and organizing
+                code to solve problems. JavaScript supports the following programming paradigms</p>
+        </div>
+
+        <div id="editAndDeleteBtnDiv">
+            <button id="deleteBtn" class="btns">Delete</button>
+            <button id="editBtn" class="btns">Edit</button>
+        </div>
+
+
+    </div>
+
+
+
+    <script type="module" src="dashboardWithLogin.js" ></script>
 
 
 </body>

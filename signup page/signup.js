@@ -4,16 +4,14 @@ const lastName = document.querySelector("#lastName");
 const email = document.querySelector("#email");
 const password = document.querySelector("#password");
 const cPassword = document.querySelector("#cPassword");
-const signupForm = document.querySelector("#signupForm");
+const signupForm = document.querySelector("#signupForm")
 const signupBtn = document.querySelector("#signupBtn");
-
-
-
-
 
 
 signupForm.addEventListener("submit", (e) => {
     e.preventDefault()
+
+
     if (firstName.value.length < 3) {
         return alert("first name should be at least 3 characters");
     }
@@ -29,6 +27,7 @@ signupForm.addEventListener("submit", (e) => {
 })
 
 
+
 signupBtn.addEventListener("click", signupHandler)
 
 
@@ -42,11 +41,11 @@ async function signupHandler() {
     console.log(password.value);
     console.log(cPassword.value);
 
-   
+
 
     try {
 
-       
+
 
         const userCredential = await createUserWithEmailAndPassword(auth, email.value, password.value)
 
@@ -69,14 +68,14 @@ async function signupHandler() {
         const docRef = await addDoc(collection(db, "users"), {
             ...userData,
             uid: userCredential.user.uid
-          });
-          console.log("Document written with ID: ", docRef.id);
+        });
+        console.log("Document written with ID: ", docRef.id);
 
-          if(docRef) {
+        if (docRef) {
             console.log(userData.uid);
-          }else {
+        } else {
             console.log("User data cannot be added");
-          }
+        }
 
 
     } catch (error) {
@@ -88,3 +87,8 @@ async function signupHandler() {
 
 
 }
+
+
+export default userCredential
+
+

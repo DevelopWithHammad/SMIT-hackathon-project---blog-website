@@ -1,5 +1,3 @@
-
-
 * {
     font-family: 'Poppins', sans-serif;
 }
@@ -19,13 +17,42 @@ body {
     align-items: center;
 }
 
-#personalBloggingAppHeading {
-    margin-left: 238px;
+
+#navbarcol1 {
+    /* background-color: green; */
+    height: 50px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbarcol2 {
+    /* background-color: rgb(255, 10, 120); */
+    height: 50px;
+    width: 30%;
+    margin-left: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-items {
+    color: white;
 }
 
 #logoutLink {
-    margin-left: 800px;
+    text-decoration: none;
+    font-weight: bold;
 }
+
+#logoutLink:hover {
+    color: rgb(229, 229, 229);
+    transition: 400ms;
+}
+
+
+
 
 #dashboardHeadingDiv {
     background-color: white;
@@ -35,11 +62,152 @@ body {
 }
 
 #dashboardHeading {
-    margin-left: 140px;
+    margin-left: 170px;
 }
 
 
 .navbaritem {
     color: white;
-    margin-left: 34em;
+    margin-left: 46em;
+}
+
+
+
+#publishBlogDiv {
+    background-color: white;
+    width: 56%;
+    margin-top: 40px;
+    margin-left: 130px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 5px  10px rgb(219, 219, 219);
+}
+
+.inputField {
+    width: 570px;
+    height: 30px;
+    margin: 15px;
+    padding-left: 5px;
+    border: 0.5px solid rgb(185, 185, 185);
+    border-radius: 7px;
+}
+
+
+#publishBlogBtn {
+    width: 130px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: -445px;
+}
+
+#blogBodyField {
+    height: 400px;
+}
+
+
+#publishBlogBtn {
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+}
+
+#publishBlogBtn:hover {
+    background-color: rgb(175, 19, 175);
+    transition: 400ms ease-in-out;
+}
+
+.inputField:active {
+    outline: 1px solid purple;
+}
+
+.inputField:focus {
+    outline: 1px solid purple;
+}
+
+
+#myBlogsHeading {
+    margin-left: 130px;
+}
+
+
+.allBlogs {
+    background-color: white;
+    width: 55%;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 130px;
+    height: 400px;
+    box-shadow: 5px 5px 10px rgb(219, 219, 219)
+}
+
+
+
+#blogOwnerInfo {
+    /* background-color: red; */
+    height: 100px;
+    margin: 20px 0 0 20px;
+    display: flex;
+   
+   
+}
+
+#ppDiv {
+    width: 15%;
+    /* background-color: yellow; */
+    height: 100px;
+
+}
+
+.pp {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+
+#blogTitleAndInfo {
+    /* background-color: blue; */
+    margin-left: 10px;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: -29px;
+}
+
+#blogTitle {
+    margin-top: -1px;
+    
+}
+
+#blogOwnerNameAndDate {
+    margin-top: -13px;
+}
+
+
+#blogContent {
+    /* background-color: green; */
+    width: 97%;
+    margin-left: 25px;
+}
+
+
+#editAndDeleteBtnDiv {
+    /* background-color: orange; */
+    margin-left: 25px;
+    
+}
+
+.btns {
+    background-color: white;
+    border: none;
+    color: purple;
+    cursor: pointer;
 }
