@@ -1,0 +1,107 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    padding: 0;
+    margin: 0;
+
+
+
+}
+
+#navbar {
+    background-color: purple;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#personalBloggingAppHeading {
+    margin-left: 150px;
+}
+
+#loginLink {
+    margin-left: 800px;
+}
+
+#signupHeadingDiv {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#SignupHeading {
+    margin-left: 200px;
+}
+
+
+.navbaritem {
+    color: white;
+    /* margin-left: 10em; */
+}
+
+#main-container {
+    background-color: white;
+    width: 30%;
+    height: 550px;
+    margin: 55px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+
+
+.inputField {
+    width: 250px;
+    height: 35px;
+    margin: 15px;
+    padding-left: 5px;
+    border: 0.5px solid rgb(185, 185, 185);
+    border-radius: 7px;
+}
+
+.inputField:active {
+    outline: 1px solid purple;
+}
+
+.inputField:focus {
+    outline: 1px solid purple;
+}
+
+
+
+#signupBtn {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+}
+
+#signupBtn:hover {
+    background-color: rgb(175, 19, 175);
+    transition: 400ms ease-in-out;
+}
+
+/* 
+#signupBtn:active {
+    background-color: purple;
+
+} */
+
+
+.mandatorySign {
+    color: red;
+    display: inline;
+    margin-top: -5px;
+}

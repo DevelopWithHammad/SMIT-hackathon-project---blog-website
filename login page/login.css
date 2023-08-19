@@ -1,0 +1,66 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+#main-container {
+    background-color: white;
+    width: 30%;
+    height: 300px;
+    margin: 55px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+
+
+.inputField {
+    width: 250px;
+    height: 35px;
+    margin: 15px;
+    padding-left: 5px;
+    border: 0.5px solid rgb(185, 185, 185);
+    border-radius: 7px;
+}
+
+.inputField:active {
+    outline: 1px solid purple;
+}
+
+.inputField:focus {
+    outline: 1px solid purple;
+}
+
+
+
+#loginBtn {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+}
+
+#loginBtn:hover {
+    background-color: rgb(175, 19, 175);
+}
+
+#loginBtn:active {
+    background-color: purple;
+}
+
+
+.mandatorySign {
+    color: red;
+    display: inline;
+    margin-top: -5px;
+}
