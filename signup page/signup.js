@@ -44,9 +44,6 @@ async function signupHandler() {
 
 
     try {
-
-
-
         const userCredential = await createUserWithEmailAndPassword(auth, email.value, password.value)
 
         const userData = {
